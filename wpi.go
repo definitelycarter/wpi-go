@@ -1,8 +1,8 @@
 // Package wipi a wrapper for the wiringPi c library on Raspberry Pi
 package wpi
 
-// #cgo CFLAGS: -IwiringPi
-// #cgo LDFLAGS: -LwiringPi -lwiringPi
+// #cgo CFLAGS: -IwiringPi/wiringPi
+// #cgo LDFLAGS: -LwiringPi/wiringPi -lwiringPi
 // #include "wiringPi.h"
 import "C"
 
